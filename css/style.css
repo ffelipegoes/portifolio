@@ -24,7 +24,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #151414;
+  background: #0a0a0a;
   height: 8vh;
 }
 
@@ -104,6 +104,12 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 body {
   background: #222121;
 }
@@ -135,11 +141,12 @@ footer {
 
 p {
   color: #fff;
+  font-size: 25px;
 }
 
 .titulo {
   color: #fff;
-  font-size: 5vh;
+  font-size: 6vh;
   padding: 5vh;
   text-align: center;
 }
@@ -171,4 +178,11 @@ p {
   border: none;
   border-radius: 10px;
   font-size: 1.5rem;
+}
+
+.apresentacao,
+.conteudo-sobre,
+.conteudo-projetos,
+.conteudo-skills {
+  height: 80vh;
 }
