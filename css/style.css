@@ -108,6 +108,16 @@ body {
   background: #222121;
 }
 
+main {
+  margin: 40px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+footer {
+  margin: 40px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
 p {
   color: #fff;
 }
