@@ -109,7 +109,6 @@ body {
 }
 
 main {
-  margin: 40px;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
@@ -118,12 +117,31 @@ footer {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
+#home {
+  background: #222121;
+}
+
+#sobre {
+  background: #151414;
+}
+
+#projetos {
+  background: #222121;
+}
+
+#skills {
+  background: #151414;
+}
+
 p {
   color: #fff;
 }
 
-h2 {
+.titulo {
   color: #fff;
+  font-size: 5vh;
+  padding: 5vh;
+  text-align: center;
 }
 
 .linkedin {
@@ -135,4 +153,22 @@ h2 {
   width: auto;
   height: 40vh;
   border-radius: 50%;
+  padding: 5px;
+  margin: 0px 10px 10px 0px;
+}
+
+.sobre {
+  width: 960px;
+  margin: auto;
+}
+
+.botao {
+  padding: 10px;
+  margin: 10px;
+  background-color: #151414;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
 }
