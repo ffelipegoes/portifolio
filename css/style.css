@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 0.9em;
+}
+
 nav a {
   color: #fff;
   text-decoration: none;
@@ -184,5 +192,14 @@ p {
 .conteudo-sobre,
 .conteudo-projetos,
 .conteudo-skills {
-  height: 80vh;
+  height: 90vh;
+}
+
+@media (max-width: 999px) {
+  .apresentacao,
+  .conteudo-sobre,
+  .conteudo-projetos,
+  .conteudo-skills {
+    height: 110vh;
+  }
 }
