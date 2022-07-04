@@ -11,6 +11,19 @@ html {
   scroll-margin-top: 0.9em;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #8a8a8a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border: none;
+  border-radius: 2px;
+}
 nav a {
   color: #fff;
   text-decoration: none;
