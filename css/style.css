@@ -238,11 +238,11 @@ p {
   }
 
   .conteudo-sobre {
-    height: 165vh;
+    height: 160vh;
   }
 
   .conteudo-sobre p {
-    font-size: 4.5vh;
+    font-size: 3vh;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
@@ -293,7 +293,7 @@ p {
   }
 
   .conteudo-sobre p {
-    font-size: 4vh;
+    font-size: 1.2rem;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
@@ -339,7 +339,7 @@ p {
   }
 
   .conteudo-sobre p {
-    font-size: 3vh;
+    font-size: 1.1rem;
     padding: 20px;
     margin: auto;
     margin-top: 10px;
