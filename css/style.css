@@ -188,18 +188,156 @@ p {
   font-size: 1.5rem;
 }
 
-.apresentacao,
-.conteudo-sobre,
-.conteudo-projetos,
-.conteudo-skills {
-  height: 90vh;
-}
-
 @media (max-width: 999px) {
   .apresentacao,
   .conteudo-sobre,
   .conteudo-projetos,
   .conteudo-skills {
-    height: 110vh;
+    height: 100vh;
+  }
+  .apresentacao {
+    height: 70vh;
+  }
+
+  .apresentacao p {
+    margin: auto;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: center;
+  }
+
+  .botao {
+    margin: auto;
+    align-content: center;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 1.75em;
+  }
+
+  .bt-container {
+    text-align: center;
+  }
+
+  .foto-perfil {
+    text-align: center;
+    margin: auto;
+    height: 50vh;
+  }
+
+  .conteudo-sobre {
+    height: 165vh;
+  }
+
+  .conteudo-sobre p {
+    font-size: 4.5vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    text-indent: 0;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .apresentacao,
+  .conteudo-sobre,
+  .conteudo-projetos,
+  .conteudo-skills {
+    height: 150vh;
+  }
+  .apresentacao {
+    height: 80vh;
+  }
+
+  .apresentacao p {
+    margin: auto;
+    padding: 20px;
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  .botao {
+    margin: auto;
+    align-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.8em;
+  }
+
+  .bt-container {
+    text-align: center;
+  }
+
+  .foto-perfil {
+    text-align: center;
+    margin: auto;
+    height: 40vh;
+  }
+
+  .conteudo-sobre {
+    height: 190vh;
+  }
+
+  .conteudo-sobre p {
+    font-size: 4vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    text-indent: 0;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 320px) {
+  .apresentacao,
+  .conteudo-sobre,
+  .conteudo-projetos,
+  .conteudo-skills {
+    height: 180vh;
+  }
+
+  .apresentacao {
+    height: 70vh;
+  }
+
+  .apresentacao p {
+    margin: auto;
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .botao {
+    margin: auto;
+    margin-top: 20px;
+    align-content: center;
+    padding: 20px;
+    font-size: 1.6em;
+  }
+
+  .bt-container {
+    text-align: center;
+  }
+
+  .conteudo-sobre {
+    height: 180vh;
+  }
+
+  .conteudo-sobre p {
+    font-size: 3vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    text-indent: 0;
+    line-height: 35px;
+  }
+
+  .foto-perfil {
+    margin: auto;
+    text-align: center;
+    height: 35vh;
   }
 }
