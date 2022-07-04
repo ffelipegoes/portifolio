@@ -196,7 +196,7 @@ p {
     height: 100vh;
   }
   .apresentacao {
-    height: 70vh;
+    height: 80vh;
   }
 
   .apresentacao p {
@@ -232,7 +232,7 @@ p {
     font-size: 4.5vh;
     padding: 20px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     text-indent: 0;
     line-height: 35px;
