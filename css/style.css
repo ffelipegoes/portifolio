@@ -260,7 +260,7 @@ p {
     height: 150vh;
   }
   .apresentacao {
-    height: 80vh;
+    height: 400px;
   }
 
   .apresentacao p {
@@ -289,7 +289,7 @@ p {
   }
 
   .conteudo-sobre {
-    height: 165vh;
+    height: 950px;
   }
 
   .conteudo-sobre p {
