@@ -257,7 +257,7 @@ p {
   .conteudo-sobre,
   .conteudo-projetos,
   .conteudo-skills {
-    height: 1050px;
+    height: 400px;
   }
   .apresentacao {
     height: 400px;
@@ -289,7 +289,7 @@ p {
   }
 
   .conteudo-sobre {
-    height: 1050px;
+    height: 980px;
   }
 
   .conteudo-sobre p {
@@ -308,7 +308,7 @@ p {
   .conteudo-sobre,
   .conteudo-projetos,
   .conteudo-skills {
-    height: 1350px;
+    height: 350px;
   }
 
   .apresentacao {
