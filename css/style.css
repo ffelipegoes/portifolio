@@ -315,7 +315,7 @@ progress {
   }
 
   .conteudo-sobre {
-    height: 980px;
+    height: 1010px;
   }
 
   .conteudo-sobre p {
@@ -381,7 +381,11 @@ progress {
   }
 
   .conteudo-sobre {
-    height: 1380px;
+    height: 450vw;
+  }
+
+  .texto-conteudo {
+    height: 15vw;
   }
 
   .conteudo-sobre p {
