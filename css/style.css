@@ -392,6 +392,13 @@ progress[value]::-webkit-progress-value {
     text-align: center;
   }
 
+  .bt-container img {
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
   .conteudo-sobre {
     height: 450vw;
   }
@@ -417,7 +424,7 @@ progress[value]::-webkit-progress-value {
   }
 
   .conteudo-skills {
-    height: 270vw;
+    height: 800px;
     margin: auto;
     padding: 10px;
   }
@@ -437,7 +444,7 @@ progress[value]::-webkit-progress-value {
     background: #464646;
   }
   .footer {
-    height: 400px;
+    height: 100px;
   }
   .footer p {
     text-align: center;
