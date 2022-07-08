@@ -436,4 +436,11 @@ progress[value]::-webkit-progress-value {
   progress[value]::-webkit-progress-value {
     background: #464646;
   }
+  .footer {
+    height: 400px;
+  }
+  .footer p {
+    text-align: center;
+    font-size: 1rem;
+  }
 }
