@@ -229,10 +229,10 @@ progress[value]::-webkit-progress-value {
   }
 
   .bt-container img {
-    height: 150px;
-    width: 150px;
-    margin-top: 80px;
-    margin-bottom: 90px;
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
 
   .botao {
