@@ -271,6 +271,9 @@ progress[value]::-webkit-progress-value {
   .conteudo-skills {
     height: 600px;
   }
+  #skills {
+    height: 150vh;
+  }
   .conteudo-skills {
     height: 800px;
     margin: auto;
@@ -354,8 +357,8 @@ progress[value]::-webkit-progress-value {
     text-indent: 0;
     line-height: 35px;
   }
-  .conteudo-skills {
-    height: 500px;
+  #skills {
+    height: 150vh;
   }
 
   .conteudo-skills {
