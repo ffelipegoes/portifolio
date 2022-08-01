@@ -140,6 +140,11 @@ main {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
+.social-img {
+  height: 150px;
+  width: 150px;
+}
+
 footer {
   margin: 40px;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
